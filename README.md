@@ -6,6 +6,9 @@ The dataset is based on real house and apartment listings scraped from Bina.az o
 
 Dataset source: https://www.kaggle.com/datasets/elvinrustam/house-listings-in-baku
 
+If GitHub does not render the notebook, open it with nbviewer:
+https://nbviewer.org/github/akshin777mansurov/house-price-prediction/blob/main/House_Price_Prediction.ipynb
+
 ## Project Overview
 
 The main goal of this project is to predict apartment prices using listing features such as apartment area, number of rooms, building type, floor information, repair status, mortgage availability, title deed status, address, and location information.
