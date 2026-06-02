@@ -113,6 +113,16 @@ The chart below compares the best model's predicted prices with the real apartme
 ![Predicted vs Actual Prices](images/predicted_vs_actual.png)
 
 
+## Example Prediction
+
+The notebook also includes a small interactive prediction example. It asks for apartment details.
+
+For location input, the notebook uses simple text matching. The user can type a location in a natural way, even without Azerbaijani characters or with a small spelling difference. The text is normalized first, then matched with help of `difflib` to the closest known location from the training data.
+
+For example, an input like `nerimanov` can be matched to a known location such as `Nərimanov`. If the input is too different and no close location is found, the notebook returns an error instead of making an unreliable prediction.
+
+![Input Example](images/input_example.png)
+
 ## Tech Stack
 
 - Python
